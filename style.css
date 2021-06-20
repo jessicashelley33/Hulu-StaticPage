@@ -1,0 +1,262 @@
+/* 
+color of text might be - color:#2d7e6b;
+button color - #01ed82
+*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+
+.links:hover{
+    color:#fff;
+    opacity: 0.7;
+}
+.text-light {
+    color: #fff;
+}
+
+.bg-dark {
+    background-color: #000;
+}
+
+/* Start of Header Section */
+
+.navBar{
+    margin-top: 0;
+    color:#fff;
+    position: absolute;
+    left: 90%;
+    top:5%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+    
+}
+
+.hero-image {
+    background-image: url('img/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+    margin-top: 0;
+    max-width: 100%;
+    padding: 4rem;
+}
+
+.hero-text {
+    max-width:12rem;
+    max-height: 12rem;
+
+}
+
+.flex-wrapper-header{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+}
+.flex-item-h6{
+    color:#2ebd9c;
+    margin-bottom: 1.8rem;
+    font-weight: 600;
+}
+
+.flex-item-par{
+    margin-top: 2rem;
+    font-weight: 700;
+}
+
+
+.flex-item-par2 {
+    margin-top:2rem;
+    font-weight: 100;
+}
+
+.flex-item-btn{
+    display:inline-block;
+    padding: 0.85em 9.2em;
+    border: 1px solid #01ed82;
+    border-radius: 4%;
+    background-color: #01ed82;
+    
+    font-weight: 600;
+    margin-top:2rem;
+    cursor: pointer;
+}
+
+.flex-item-btn a {
+    color: #000;
+    text-decoration: none;
+}
+
+.flex-item-par3 {
+    margin-top:2rem;
+    color:#fff;
+    opacity: 0.4;
+    font-size:12px;
+}
+/* End of Header Section */
+
+/* Start of Middle Section */
+
+.section-two{
+background: rgb(15,73,92);
+background: radial-gradient(circle, rgba(15,73,92,1) 0%, rgba(13,54,64,1) 49%, rgba(8,20,31,1) 100%);
+padding:1.5rem;
+}
+.flex-container-one {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bundle-logo{
+    max-width: 20em;
+    max-height: 20em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:0;
+    
+}
+
+.item1-p1{
+    font-size: 16px;
+    margin-left:25px;
+    margin-bottom: 25px;
+    color:#2ebd9c;
+    font-weight:600;
+}
+
+.item1-p2{
+    margin-left:25px;
+    margin-bottom: 25px;
+    font-weight: lighter;
+    font-size: 16px;
+
+}
+
+.item1-link1{
+    margin-left:25px;
+    margin-bottom: 25px;
+    opacity: 0.5;
+    font-weight: lighter;
+    font-size: 13px;
+    color:#fff;
+    cursor: pointer;
+}
+
+
+
+.flex-container-three {
+    margin-left: auto;
+}
+
+.btn{
+    margin-top:40%;
+    margin-bottom: 25px;
+    margin-left: -25em;
+    padding: 1em 1.5em;
+    border: 3px solid #fff;
+    border-radius: 3%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.item1-link2{
+    margin-top:7em;
+    margin-left: -25em;
+    opacity: 0.5;
+    font-weight: lighter;
+    font-size: 13px;
+    color:#fff;
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 40em) {
+    .flex-container-one {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .flex-container-three {
+        position:absolute;
+        top:50%;
+        left:-2%;
+    }  
+  }
+
+  @media only screen and (max-width: 48em) {
+    .flex-container-one {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+        .flex-container-three {
+            position:absolute;
+            bottom: -13%;
+            right: -8%;
+        }
+
+    
+  }
+
+/* End of Middle Section */
+
+/* Start of last Section */
+.section3-h6-item {
+    margin-top:4rem;
+    color:#2ebd9c;
+    
+}
+
+.section3-h2-item {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
+    letter-spacing:1;
+}
+
+.section3-p-item {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.flex-container-img{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:5rem;
+    padding-bottom: 10rem;
+    
+    
+}
+
+.flex-img{
+    max-width:100%;
+    padding: 1rem;
+   opacity: 0.8;
+    cursor: pointer;
+    
+}
+/* End of Middle Section */
